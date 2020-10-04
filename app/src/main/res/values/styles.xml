@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+<!--        <item name="colorPrimary">@color/colorPurple_A400</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPurple_A400</item>-->
+        <item name="colorAccent">@color/black</item>
+        <item name="colorPrimaryDark">#030510</item>
+        <item name="colorPrimary">#2196F3</item>
+    </style>
+
+    <style name="spinner_style" parent="Widget.AppCompat.Spinner">
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+</resources>

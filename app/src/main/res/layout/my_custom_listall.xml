@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Drname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:paddingBottom="0dp"
+        android:text="Doctor name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="180dp" />
+
+    <TextView
+        android:id="@+id/Drspeciality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Drname"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_marginTop="0dp"
+        android:text="speciality"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/Drexp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Drspeciality"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_marginTop="0dp"
+        android:text="dr experiance"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+    <TextView
+        android:id="@+id/Dradds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Drexp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_marginTop="0dp"
+        android:text="dr location"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+    <Button
+        android:id="@+id/Doctorsbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:background="@drawable/mybutton"
+        android:text="Select"
+        />
+</RelativeLayout>

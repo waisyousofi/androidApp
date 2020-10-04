@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    >
+    <LinearLayout
+        android:id="@+id/tnxmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:text="You have successfully booked your appointment !"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:id="@+id/msg1"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <ImageView
+            android:id="@+id/smile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_sentiment_satisfied_black_24dp"/>
+        <TextView
+         android:text="Your appointment details :"
+         android:layout_below="@+id/smile"
+         android:textColor="@color/black"
+         android:textStyle="normal"
+         android:textSize="17sp"
+         android:gravity="left"
+         android:textIsSelectable="false"
+         android:layout_width="match_parent"
+         android:paddingLeft="10dp"
+         android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+<RelativeLayout
+    android:id="@+id/doctorinfo"
+    android:layout_below="@+id/tnxmsg"
+    android:layout_width="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_margin="5dp"
+    android:paddingBottom="15dp"
+    android:background="@drawable/forreadling"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/drname"
+        android:text="Dr name"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/drlocation"
+        android:text="Dr location"
+        android:layout_below="@+id/drname"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/dayname"
+        android:text="Day"
+        android:layout_below="@+id/drlocation"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tokentxt"
+        android:text="Token no"
+        android:layout_below="@+id/dayname"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:textSize="16dp"
+        android:paddingLeft="10dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/backtohomebtn"
+        android:layout_width="282dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="170dp"
+        android:layout_below="@+id/doctorinfo"
+        android:background="@drawable/mybutton"
+        android:padding="3dp"
+        android:text="Back to Home"
+        android:textColor="@color/white_greyish"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</RelativeLayout>

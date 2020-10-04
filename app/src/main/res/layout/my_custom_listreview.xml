@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/nameandstar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        >
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/starts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stars"
+        android:paddingLeft="35dp"
+        android:drawableRight="@drawable/ic_star_black_24dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameandstar"
+        android:text="comment"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:layout_below="@+id/comment"
+        android:background="@drawable/mybutton">
+        </View>
+</RelativeLayout>

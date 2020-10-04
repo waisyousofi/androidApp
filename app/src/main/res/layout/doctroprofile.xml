@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+
+    <ImageView
+        android:id="@+id/dricon"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:layout_marginBottom="3dp"
+         />
+    <TextView
+        android:id="@+id/drnametxt"
+        android:layout_below="@+id/dricon"
+        android:text="Dr name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctoraccnt"
+        android:layout_below="@+id/drnametxt"
+        android:background="@drawable/forreadling"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drspecialitytxt"
+        android:textIsSelectable="true"
+        android:text="Doctor specaility "
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dremailtxtdr"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/drspecialitytxt"
+        android:text="Doctor email address"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drphonetextdr"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/dremailtxtdr"
+        android:text="Mobile no:"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/draddressdr"
+        android:layout_below="@+id/drphonetextdr"
+        android:text="Exact Location:"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:gravity="left"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drgenderdr"
+        android:layout_below="@+id/draddressdr"
+        android:text="Gender:"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:gravity="left">
+    </TextView>
+</RelativeLayout>
+    <Button
+        android:id="@+id/drlogout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/mybutton"
+        android:padding="3dp"
+        android:text="@string/logoutacount"
+        android:layout_below="@+id/doctoraccnt"
+        android:textColor="@color/white_greyish"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        />
+</RelativeLayout>

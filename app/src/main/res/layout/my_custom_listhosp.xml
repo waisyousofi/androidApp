@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hospadds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="address"
+        android:textSize="20sp"
+        android:gravity="left"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/img"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:id="@+id/hosptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospadds"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="hospials type"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left" />
+    <TextView
+        android:id="@+id/hosmobno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hosptype"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="mobno"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+    <TextView
+        android:id="@+id/hosemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hosmobno"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="emailid"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/reviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:text="reviews"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_star_black_24dp"
+        android:drawablePadding="5dp"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:gravity="left"/>
+</RelativeLayout>

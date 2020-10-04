@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <SearchView
+        android:id="@+id/searchtextid55"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:iconifiedByDefault="false"
+        android:background="#97D0F3"
+        android:layout_height="wrap_content"
+        android:queryHint="enter the doctor name."
+        android:layout_marginBottom="10dp"
+        />
+
+    <ListView
+        android:id="@+id/listviewid55"
+        android:layout_below="@+id/searchtextid55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

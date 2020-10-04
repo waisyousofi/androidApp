@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fontFamily="sans-serif"
+
+    >
+
+    <TextView
+        android:id="@+id/txtdrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:textColor="@color/black"
+        android:text="name"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/txtdrname"
+        android:background="@color/searchHint" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        />
+    <Button
+        android:id="@+id/met"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:background="@drawable/mybutton"
+        android:text="MET"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/contactno"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v1"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:text="contactno"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        />
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/contactno"
+        android:background="@color/searchHint" />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:text="Gender"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/gender"
+        android:background="@color/searchHint" />
+    <TextView
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v3"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:text="Emailid"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/emailid"
+        android:background="@color/searchHint" />
+    <TextView
+        android:id="@+id/tokennotxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailid"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:text="Token no"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/v5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/tokennotxt"
+        android:background="@color/searchHint" />
+    <TextView
+        android:id="@+id/visitday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tokennotxt"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:text="Visit day"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+
+    <View
+        android:id="@+id/v6"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_below="@+id/visitday"
+        android:background="@color/searchHint" />
+
+    <TextView
+        android:id="@+id/visitlocn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitday"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:paddingTop="5dp"
+        android:textColor="@color/black"
+        android:text="Visiting location"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:paddingLeft="10dp"/>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthcareproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".patientuser.Patient_Login"
+            android:parentActivityName=".MainActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".patientuser.Home_Activity"></activity>
+        <activity android:name=".patientuser.SignUp_Activity"></activity>
+        <activity android:name=".patientuser.Myaccount"></activity>
+        <activity android:name=".patientuser.Userhistory"></activity>
+        <activity android:name=".patientuser.Setting"></activity>
+        <activity android:name=".patientuser.Bookingprocess"></activity>
+        <activity android:name=".doctoruser.Home_Activitydtr"></activity>
+        <activity android:name=".doctoruser.DoctorLogin"></activity>
+        <activity android:name=".doctoruser.Doctorsignup"></activity>
+        <activity android:name=".patientuser.Doctor_Details"></activity>
+
+        <activity android:name=".patientuser.Drschedul"></activity>
+        <activity android:name=".doctoruser.Drsetting"></activity>
+        <activity android:name=".doctoruser.Myaccountdr"></activity>
+        <activity android:name=".patientuser.Confirmed"></activity>
+        <activity android:name=".doctoruser.Mypatients"></activity>
+        <activity android:name=".patientuser.All_Doctors"></activity>
+        <activity android:name=".patientuser.Hospitals"></activity>
+        <activity android:name=".patientuser.Nutration"></activity>
+        <activity android:name=".patientuser.Readingactivity"></activity>
+        <activity android:name=".patientuser.Forgotpasswd"></activity>
+        <activity android:name=".patientuser.Newpasswordoutside"></activity>
+        <activity android:name=".doctoruser.Forgotpasswddr"></activity>
+        <activity android:name=".doctoruser.Newpasswordoutsidedr"></activity>
+        <activity android:name=".patientuser.Reviews"></activity>
+        <activity android:name=".patientuser.Feedback"></activity>
+        <activity android:name=".doctoruser.Myschedule"></activity>
+        <activity android:name=".patientuser.HistoryInfo"></activity>
+        <activity android:name=".patientuser.Patient_Login"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/homelayoutdr"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_color">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/drschedule"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/scheduale"
+        android:textAllCaps="false"
+        android:background="@drawable/mybutton"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18sp"/>
+        <Spinner
+            android:id="@+id/drdays"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/spinner"
+            android:layout_below="@+id/drschedule"
+            android:singleLine="true" />
+        <Button
+            android:id="@+id/patientq"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/drdays"
+            android:text="My Patients"
+            android:textAllCaps="false"
+            android:background="@drawable/mybuttondr"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menudr"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nar_headerdr"
+        android:id="@+id/nv1"
+        android:background="@drawable/bg_color">
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

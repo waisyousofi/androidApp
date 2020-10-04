@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="strpassowrd">Password</string>
+    <string name="login">Patient-Login</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a member yet? Sign-Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">mobile number</string>
+    <string name="location">City</string>
+    <string name="confirmPassword">Confirm</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the terms and conditions.</string>
+    <string name="signUp">New Patient Account</string>
+    <string name="already_user">Already have an account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="bookbtn">Book an Appoinment</string>
+    <string name="doctorsbtn">Doctors</string>
+    <string name="hospialsbtn">Hospitals</string>
+    <string name="nutritionbtn">Nutrition</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="changedname">Change your name</string>
+    <string name="changedemailid">Change your emailid</string>
+    <string name="changedpassword">Change your password</string>
+    <string name="changedaddress">Change your address</string>
+    <string name="logout">Logout</string>
+    <string name="canceltext">Cancel this appointment</string>
+    <string name="changedmob">Change your mobile number</string>
+    <string name="findingbtn">Filter</string>
+    <string name="patientbtn">Patient</string>
+    <string name="doctor">Doctor</string>
+    <string name="inf">----You are a----</string>
+    <string name="doctoraccnt">Enter </string>
+    <string name="signUpdtr">Signup</string>
+    <string name="special">Specaility</string>
+    <string name="signUpbtntxt">Singup</string>
+    <string name="logoutacount">Logout</string>
+    <string name="selectbtn">Select</string>
+    <string name="appmntbookbtn">Book the appointment</string>
+    <string name="scheduale">Create Your Schedule</string>
+    <string name="duration">How many patient can you visit in one hour:</string>
+    <string name="savedr">Save</string>
+    <string name="Open" />
+    <string name="Close" />
+    <string name="drlogin">DOCTOR-LOGIN</string>
+
+    <string-array name="locations">
+        <item>Select Location</item>
+        <item>Balkh</item>
+        <item>Herat</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Goa</item>
+        <item>Delhi</item>
+        <item>Qandahar</item>
+        <item>Jalalabad</item>
+        <item>Faryab</item>
+        <item>Badakhshan</item>
+    </string-array>
+
+    <string-array name="doctors">
+        <item>Select Speciality</item>
+        <item>Dentist</item>
+        <item>Cardiologist</item>
+        <item>Urologist</item>
+        <item>Eye specialist</item>
+        <item>Neulogist</item>
+        <item>Orthopidic</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>Select Day:</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </string-array>
+</resources>

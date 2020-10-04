@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+    <ImageView
+        android:id="@+id/usericon"
+        android:layout_width="400px"
+        android:layout_height="89dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/userdr"
+        android:layout_below="@+id/usericon"
+        android:text="Dr name"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drspeciality"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/usericon"
+        android:text="Doctor specaility "
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dremailtxt"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/drspeciality"
+        android:text="Doctor email address"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drphonetext"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/dremailtxt"
+        android:text="Contact us for any query: 8291774646"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"
+        android:gravity="left">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/draddress"
+        android:layout_below="@+id/drphonetext"
+        android:text="Exact Location:"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:gravity="left"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/drgender"
+        android:layout_below="@+id/draddress"
+        android:text="Gender:"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:paddingLeft="20dp"
+        android:textSize="16sp"
+        android:gravity="left">
+    </TextView>
+    <Spinner
+        android:id="@+id/days"
+        android:layout_width="340dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/drgender"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/fortiming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/days">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/opentime"
+            android:text="Open from :"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingLeft="15dp"
+            android:textSize="16sp"
+            android:gravity="left"
+            android:layout_margin="5dp"/>
+            />
+
+        <TextView
+            android:id="@+id/closeime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="right"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="to:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+        />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chechqtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="right"
+        android:text="Check the queue:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/fortiming"
+        />
+    />
+    <Spinner
+        android:id="@+id/queue"
+        android:layout_width="340dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/chechqtxt"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+    <Button
+        android:id="@+id/bookbtn"
+        android:layout_width="231dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/queue"
+        android:text="Book the appointment"
+        android:textAllCaps="false"
+        android:background="@drawable/mybuttondr"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:textSize="18sp"/>
+</RelativeLayout>

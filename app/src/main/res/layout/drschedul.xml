@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color">
+    <Spinner
+        android:id="@+id/drdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+    <Spinner
+        android:id="@+id/starttime"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/drdate"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+    <Spinner
+        android:id="@+id/endtime"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/starttime"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+    <TextView
+        android:id="@+id/noofpatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endtime"
+        android:text="@string/duration"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/noofpatienttxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noofpatient"
+        android:hint="mention it here..."
+        android:padding="10dp"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noofpatienttxt"
+        android:background="@drawable/mybutton"
+        android:text="@string/savedr"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_color"
+    >
+
+    <EditText
+        android:id="@+id/feedbackstr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:hint="your feedback"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/ratebtn"
+        android:layout_below="@+id/feedbackstr"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAmber_A400"
+        android:padding="8dp"
+        android:layout_marginTop="15dp"
+        android:text="Rate by stars"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/sendbtn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ratebtn"
+        android:background="@drawable/mybutton"
+        android:padding="8dp"
+        android:text="send feedback"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@color/white_greyish"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>
